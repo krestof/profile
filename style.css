@@ -1,0 +1,43 @@
+h1 {
+  color:#DD5555;
+  font-size:22px;
+}
+
+h1, h2, h3 {
+  font-family:'Montserrat', sans-serif;
+  color:#28587B;
+  font-size:20px;
+}
+
+body {
+  background-color:#EBEBEB;
+  font-family:'Open Sans', sans-serif;
+  font-weight:300; /* if you want the light version */
+  font-size:15px;
+  line-height:1.6em;
+}
+
+
+.rounded {
+  border-radius: 50%;
+}
+
+.container {
+    width: 200px;
+    height: 120px;
+}
+
+.container img {
+    width: auto;
+    height: 100%; /* <-- THIS ACTUALLY DOES THE TRICK */
+}
+
+.links {
+  color:#A5C5D3;
+  text-decoration:none;
+
+}
+
+a:hover {
+  color:green;
+}
